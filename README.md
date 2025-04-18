@@ -22,4 +22,5 @@ This is a console-based **Employee Management** application built using **ADO.NE
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/RidhamKumar15/EmployeeManager-ConsoleApp-ADO.NET.git
+git clone https://github.com/RidhamKumar15/Employee-Manager-ADO-NET-Console-App
+
