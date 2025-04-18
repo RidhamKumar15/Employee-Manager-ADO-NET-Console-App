@@ -24,3 +24,11 @@ This is a console-based **Employee Management** application built using **ADO.NE
 ```bash
 git clone https://github.com/RidhamKumar15/Employee-Manager-ADO-NET-Console-App
 
+## 🛠️ How to Set Up the Database
+
+1. Open SQL Server Management Studio (SSMS).
+2. Open the file `DatabaseSetup/create-database.sql`.
+3. Execute the script (F5) to create the database and table.
+4. Update your connection string in `Program.cs` if needed:
+   ```csharp
+   string ConnectionString = "Server=localhost;Database=EmployeeCRUDapplication;Integrated Security=True;TrustServerCertificate=True";
